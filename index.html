@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>KING MOD ANDROID</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #000;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+            color: white;
+        }
+
+        .top-marquee {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 40px;
+            background: black;
+            overflow: hidden;
+            z-index: 99999;
+            display: none;
+            border-bottom: 2px solid red;
+            box-shadow: 0 0 20px red;
+        }
+
+        .marquee-text {
+            position: absolute;
+            top: 0;
+            left: 100%;
+            white-space: nowrap;
+            color: red;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 40px;
+            text-shadow: 0 0 10px red;
+        }
+
+        #startScreen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            flex-direction: column;
+        }
+
+        #startBtn {
+            padding: 22px 55px;
+            border: none;
+            border-radius: 20px;
+            background: red;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            box-shadow: 0 0 20px red, 0 0 40px red, 0 0 80px red;
+            animation: glow 1s infinite alternate;
+            cursor: pointer;
+        }
+
+        @keyframes glow {
+            from {
+                box-shadow: 0 0 10px red, 0 0 30px red, 0 0 50px red;
+            }
+            to {
+                box-shadow: 0 0 30px red, 0 0 60px red, 0 0 120px red;
+            }
+        }
+
+        #mainWeb {
+            display: none;
+            width: 100%;
+            height: 100vh;
+            overflow-y: auto;
+            padding: 60px 15px 20px 15px;
+        }
+
+        .red-neon {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at center, rgba(255, 0, 0, 0.20), rgba(0, 0, 0, 1) 70%);
+            z-index: -2;
+        }
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.45);
+            z-index: -1;
+        }
+
+        .box {
+            max-width: 900px;
+            margin: auto;
+            background: rgba(0, 0, 0, 0.70);
+            border: 2px solid red;
+            border-radius: 30px;
+            padding: 25px;
+            box-shadow: 0 0 20px red, 0 0 50px red, 0 0 100px rgba(255, 0, 0, 0.7);
+        }
+
+        h1 {
+            text-align: center;
+            color: red;
+            margin-bottom: 20px;
+            font-size: 32px;
+            text-shadow: 0 0 15px red;
+        }
+
+        h2 {
+            color: #ff4444;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            text-shadow: 0 0 10px red;
+        }
+
+        p {
+            margin-bottom: 10px;
+            line-height: 1.8;
+            font-size: 17px;
+        }
+
+        .line {
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 20px 0;
+        }
+
+        a {
+            color: #00ffff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: white;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .warning {
+            color: #ff5555;
+            font-weight: bold;
+            text-shadow: 0 0 10px red;
+        }
+
+        .error-fix-box {
+            background: rgba(255, 200, 0, 0.15);
+            border: 2px solid #ffaa00;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 15px 0;
+            display: none;
+        }
+
+        .error-fix-box.show {
+            display: block;
+        }
+
+        .error-fix-box h3 {
+            color: #ffaa00;
+            text-shadow: 0 0 10px #ffaa00;
+        }
+
+        .fix-step {
+            color: #ffcc66;
+            padding: 5px 0;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <audio id="music" loop>
+        <source src="https://files.catbox.moe/pkaiwe.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="top-marquee" id="topMarquee">
+        <div class="marquee-text" id="marqueeText">
+            ADMIN CHÍNH CHỦ PHẠM ĐỨC TIẾN — YTB: TKING MOD — MUA FILE IB
+        </div>
+    </div>
+
+    <div id="startScreen">
+        <button id="startBtn">CHẠM 1 LẦN ĐỂ VÀO WEB</button>
+    </div>
+
+    <div id="mainWeb">
+        <div class="red-neon"></div>
+        <div class="overlay"></div>
+
+        <div class="box">
+            <h1>👑 KING MOD ANDROID – RIN DEV 👑</h1>
+            <p class="center warning">
+                ⚠️ OFFICIAL SYSTEM – ANTI FAKE – ANTI LỪA ĐẢO ⚠️
+            </p>
+            <div class="line"></div>
+
+            <h2>🛒 MUA CODE ANTIBAND</h2>
+            <p>👉 Mua code antiband liên hệ tại 👇</p>
+            <p>🔥 Code 1OB Free Fire Thường & Max</p>
+            <p>🔥 Code 1 Tháng Free Fire Thường & Max</p>
+            <p>🔥 Code 1 Năm Free Fire Thường & Max</p>
+            <p>🔥 Code Vĩnh Viễn Free Fire Thường & Max</p>
+
+            <div class="line"></div>
+            <h2>📞 LIÊN HỆ CHÍNH CHỦ</h2>
+            <p>📱 ZALO: 0366472732</p>
+            <p>
+                📘 FACEBOOK:
+                <a href="https://www.facebook.com/share/1JANZETHOB/" target="_blank">BẤM VÀO ĐÂY</a>
+            </p>
+            <p>
+                🎵 TIKTOK:
+                <a href="https://www.tiktok.com/@phamductien13?_r=1&_t=ZS-92GHWEMWRPD" target="_blank">BẤM VÀO ĐÂY</a>
+            </p>
+            <p>
+                ▶️ YOUTUBE:
+                <a href="https://youtube.com/@rinmodgame?si=HLMBQAWLYONLYLEU" target="_blank">BẤM VÀO ĐÂY</a>
+            </p>
+
+            <div class="line"></div>
+            <h2>🛒 MUA FILE</h2>
+            <p>
+                🔰 WEB FILE:
+                <a href="https://phamductienbmg123-creator.github.io/BAN-FILE-FF/" target="_blank">BẤM VÀO ĐÂY</a>
+            </p>
+            <p>
+                🌐 LINK DNS:
+                <a href="https://zufile.com/download/yx4BRWZDla" target="_blank">BẤM VÀO ĐÂY</a>
+            </p>
+
+            <div class="line"></div>
+            <h2 class="center">STYLE TKING MOD RIN DEV</h2>
+            <p class="center">CRE: PHẠM ĐỨC TIẾN</p>
+
+            <div class="line"></div>
+            <h2 class="center">👑💣 KING MOD ANDROID – RIN DEV 💣👑</h2>
+        </div>
+    </div>
+
+    <script>
+        const startBtn = document.getElementById("startBtn");
+        const startScreen = document.getElementById("startScreen");
+        const mainWeb = document.getElementById("mainWeb");
+        const music = document.getElementById("music");
+        const topMarquee = document.getElementById("topMarquee");
+        const marqueeText = document.getElementById("marqueeText");
+
+        if (window.location.protocol === 'http:' && window.location.hostname === 'localhost') {
+            document.getElementById('errorFixBox').classList.add('show');
+        }
+
+        startBtn.addEventListener("click", function() {
+            music.play();
+            startScreen.style.display = "none";
+            mainWeb.style.display = "block";
+            topMarquee.style.display = "block";
+
+            let pos = window.innerWidth;
+            setInterval(function() {
+                pos -= 2;
+                marqueeText.style.left = pos + "px";
+                if (pos < -marqueeText.offsetWidth) {
+                    pos = window.innerWidth;
+                }
+            }, 20);
+        });
+    </script>
+
+</body>
+</html>
